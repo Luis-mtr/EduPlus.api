@@ -9,11 +9,13 @@ using api.Models;
 using api.Repository;
 using Microsoft.AspNetCore.Http.HttpResults;
 using api.Mappers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Policy = "AdminOnly")]
     public class WordController : ControllerBase
     {
         private readonly IWordRepository _wordRepository;

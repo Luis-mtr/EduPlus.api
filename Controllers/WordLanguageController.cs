@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using api.Dtos.Language;
 using api.Interfaces;
 using api.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -12,6 +13,7 @@ namespace api.Controllers
 {   
     [Route("api/wordlanguage")]
     [ApiController]
+    [Authorize(Policy = "AdminOnly")]
     public class WordLanguageController : ControllerBase
     {
         private readonly IWordLanguageRepository _wordLanguageRepository;

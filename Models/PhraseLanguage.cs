@@ -8,8 +8,7 @@ namespace api.Models
 {
     public class PhraseLanguage
     {
-        
- public int PhraseId { get; set; }
+        public int PhraseId { get; set; }
         public int LanguageId { get; set; }
         [Required]
         public string PhraseInLanguage { get; set; }
