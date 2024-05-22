@@ -2,6 +2,8 @@ using api.Data;
 using api.Interfaces;
 using api.Models;
 using api.Repository;
+using EduPlus.api.Interfaces;
+using EduPlus.api.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -84,6 +86,7 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IWordRepository, WordRepository>();
 builder.Services.AddScoped<IPhraseLanguageRepository, PhraseLanguageRepository>();
 builder.Services.AddScoped<IWordLanguageRepository, WordLanguageRepository>();
+builder.Services.AddScoped<IQuestionPhraseRepository, QuestionPhraseRepository>();
 
 var app = builder.Build();
 

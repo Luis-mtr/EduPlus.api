@@ -580,3 +580,4 @@ C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\refint\api.dll
 C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.pdb
 C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\ref\api.dll
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.sourcelink.json
