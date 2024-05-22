@@ -1,0 +1,582 @@
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\appsettings.Development.json
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\appsettings.json
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\api.exe
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\api.deps.json
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\api.runtimeconfig.json
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\api.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\api.pdb
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.csproj.AssemblyReference.cache
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.AssemblyInfo.cs
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cache
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\staticwebassets.build.json
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\staticwebassets.development.json
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\staticwebassets\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\staticwebassets\msbuild.build.api.props
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.api.props
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.api.props
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.csproj.CopyComplete
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.dll
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\refint\api.dll
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.pdb
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\api.genruntimeconfig.cache
+C:\IAP\NET8 API demo\api\obj\Debug\net8.0\ref\api.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Azure.Core.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Azure.Identity.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Humanizer.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.CodeDom.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\NET8 API demo\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\appsettings.Development.json
+C:\IAP\StockMaker\api\bin\Debug\net8.0\appsettings.json
+C:\IAP\StockMaker\api\bin\Debug\net8.0\api.exe
+C:\IAP\StockMaker\api\bin\Debug\net8.0\api.deps.json
+C:\IAP\StockMaker\api\bin\Debug\net8.0\api.runtimeconfig.json
+C:\IAP\StockMaker\api\bin\Debug\net8.0\api.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\api.pdb
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Azure.Core.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Azure.Identity.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Humanizer.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.CodeDom.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.csproj.AssemblyReference.cache
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.AssemblyInfo.cs
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cache
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.sourcelink.json
+C:\IAP\StockMaker\api\obj\Debug\net8.0\staticwebassets.build.json
+C:\IAP\StockMaker\api\obj\Debug\net8.0\staticwebassets.development.json
+C:\IAP\StockMaker\api\obj\Debug\net8.0\staticwebassets\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\IAP\StockMaker\api\obj\Debug\net8.0\staticwebassets\msbuild.build.api.props
+C:\IAP\StockMaker\api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.api.props
+C:\IAP\StockMaker\api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.api.props
+C:\IAP\StockMaker\api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\IAP\StockMaker\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.csproj.CopyComplete
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.dll
+C:\IAP\StockMaker\api\obj\Debug\net8.0\refint\api.dll
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.pdb
+C:\IAP\StockMaker\api\obj\Debug\net8.0\api.genruntimeconfig.cache
+C:\IAP\StockMaker\api\obj\Debug\net8.0\ref\api.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\IAP\StockMaker\api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\appsettings.Development.json
+C:\IAP\Disertatie\api\bin\Debug\net8.0\appsettings.json
+C:\IAP\Disertatie\api\bin\Debug\net8.0\api.exe
+C:\IAP\Disertatie\api\bin\Debug\net8.0\api.deps.json
+C:\IAP\Disertatie\api\bin\Debug\net8.0\api.runtimeconfig.json
+C:\IAP\Disertatie\api\bin\Debug\net8.0\api.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\api.pdb
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Azure.Core.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Azure.Identity.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Humanizer.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.CodeDom.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\Disertatie\api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.csproj.AssemblyReference.cache
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.AssemblyInfo.cs
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cache
+C:\IAP\Disertatie\api\obj\Debug\net8.0\staticwebassets.build.json
+C:\IAP\Disertatie\api\obj\Debug\net8.0\staticwebassets.development.json
+C:\IAP\Disertatie\api\obj\Debug\net8.0\staticwebassets\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\IAP\Disertatie\api\obj\Debug\net8.0\staticwebassets\msbuild.build.api.props
+C:\IAP\Disertatie\api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.api.props
+C:\IAP\Disertatie\api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.api.props
+C:\IAP\Disertatie\api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\IAP\Disertatie\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.csproj.CopyComplete
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.dll
+C:\IAP\Disertatie\api\obj\Debug\net8.0\refint\api.dll
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.pdb
+C:\IAP\Disertatie\api\obj\Debug\net8.0\api.genruntimeconfig.cache
+C:\IAP\Disertatie\api\obj\Debug\net8.0\ref\api.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\appsettings.Development.json
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\appsettings.json
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\api.exe
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\api.deps.json
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\api.runtimeconfig.json
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\api.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\api.pdb
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Azure.Core.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Azure.Identity.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Humanizer.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.CodeDom.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\IAP\Disertatie\EduPlus.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.csproj.AssemblyReference.cache
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.AssemblyInfo.cs
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cache
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\staticwebassets.build.json
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\staticwebassets.development.json
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\staticwebassets\msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\staticwebassets\msbuild.build.api.props
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.api.props
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.api.props
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.csproj.CopyComplete
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.dll
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\refint\api.dll
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.pdb
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\api.genruntimeconfig.cache
+C:\IAP\Disertatie\EduPlus.api\obj\Debug\net8.0\ref\api.dll
