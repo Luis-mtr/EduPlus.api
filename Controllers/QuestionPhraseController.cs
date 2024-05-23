@@ -24,7 +24,7 @@ namespace EduPlus.api.Controllers
         }
 
         [HttpGet("{selectedLanguageId}/{phraseId}")]
-        public async Task<ActionResult<QuestionPhraseDto>> GetQuestionPhrase(int selectedLanguageId, int phraseId)
+        public async Task<ActionResult<QuestionPhraseDto>> GetSpecificQuestionPhrase(int selectedLanguageId, int phraseId)
         {
             try
             {                    // Retrieve user id from JWT claims
@@ -36,6 +36,27 @@ namespace EduPlus.api.Controllers
                 }
 
                 var questionPhraseDto = await _questionPhraseRepository.GetSpecificPhraseAsync(userId, selectedLanguageId, phraseId);
+                return Ok(questionPhraseDto);
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpGet("{selectedLanguageId}")]
+        public async Task<ActionResult<QuestionPhraseDto>> GetQuestionPhrase(int selectedLanguageId)
+        {
+            try
+            {                    // Retrieve user id from JWT claims
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                
+                if (userId == null)
+                {
+                    return Unauthorized("User ID not found in token.");
+                }
+
+                var questionPhraseDto = await _questionPhraseRepository.GetQuestionPhraseAsync(userId, selectedLanguageId);
                 return Ok(questionPhraseDto);
             }
             catch (ArgumentException ex)
