@@ -103,7 +103,8 @@ namespace EduPlus.api.Repository
                 PhraseId = phrase.PhraseId,
                 NativeLanguageText = phrase.PhraseLanguages.FirstOrDefault(pl => pl.LanguageId == user.NativeLanguageId)?.PhraseInLanguage,
                 SelectedLanguageText = phrase.PhraseLanguages.FirstOrDefault(pl => pl.LanguageId == selectedLanguageId)?.PhraseInLanguage,
-                OtherPhrases = otherPhrases.Select(op => op.PhraseLanguages.FirstOrDefault(pl => pl.LanguageId == selectedLanguageId)?.PhraseInLanguage).ToList()
+                OtherPhrases = otherPhrases.Select(op => op.PhraseLanguages.FirstOrDefault(pl => pl.LanguageId == selectedLanguageId)?.PhraseInLanguage).ToList(),
+                IsPhrase = true
             };
 
             return questionPhraseDto;
@@ -225,7 +226,8 @@ namespace EduPlus.api.Repository
                 PhraseId = word.WordId,
                 NativeLanguageText = word.WordLanguages.FirstOrDefault(wl => wl.LanguageId == user.NativeLanguageId)?.WordInLanguage,
                 SelectedLanguageText = word.WordLanguages.FirstOrDefault(wl => wl.LanguageId == selectedLanguageId)?.WordInLanguage,
-                OtherPhrases = otherWords.Select(ow => ow.WordLanguages.FirstOrDefault(wl => wl.LanguageId == selectedLanguageId)?.WordInLanguage).ToList()
+                OtherPhrases = otherWords.Select(ow => ow.WordLanguages.FirstOrDefault(wl => wl.LanguageId == selectedLanguageId)?.WordInLanguage).ToList(),
+                IsPhrase = false
             };
 
             return questionWordDto;

@@ -11,5 +11,6 @@ namespace EduPlus.api.Dtos.Production
         public string NativeLanguageText { get; set; }
         public string SelectedLanguageText { get; set; }
         public List<string> OtherPhrases { get; set; }
+        public bool IsPhrase { get; set; }
     }
 }
