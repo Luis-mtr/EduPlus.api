@@ -126,10 +126,18 @@ namespace EduPlus.api.Repository
 
             // Retrieve PhraseIds present in the PhraseLanguageUser for the specified userId and selectedLanguageId, ordered by Score
             var userPhraseIds = await _context.PhraseLanguageUsers
-                .Where(plu => plu.AppUserId == userId && plu.LanguageId == selectedLanguageId)
+                .Where(plu => plu.AppUserId == userId && plu.LanguageId == selectedLanguageId && plu.Date <= DateTime.UtcNow )
                 .OrderBy(plu => plu.Score)
                 .Select(plu => plu.PhraseId)
                 .ToListAsync();
+            if (userPhraseIds.Count == 0) //If there are no Phrases within the time limit set by Date, then ignore the time
+            {
+                userPhraseIds = await _context.PhraseLanguageUsers
+                    .Where(plu => plu.AppUserId == userId && plu.LanguageId == selectedLanguageId)
+                    .OrderBy(plu => plu.Score)
+                    .Select(plu => plu.PhraseId)
+                    .ToListAsync();
+            }
 
             // Retrieve PhraseIds that have texts in both the user's native language and the selected language
             var phrasesWithBothLanguages = await _context.Phrases
@@ -168,6 +176,7 @@ namespace EduPlus.api.Repository
             {
                 // Check if the word has a score less than or equal to 70 for the user and language
                 var wordLanguageUser = await _context.WordLanguageUsers
+                    .OrderBy(wlu => wlu.Date) //Sort words by date of next occurence
                     .FirstOrDefaultAsync(wlu => wlu.AppUserId == userId && wlu.LanguageId == selectedLanguageId && wlu.WordId == wordId && wlu.Score > 70);
 
                 // If the word is valid, add its id to the list
@@ -183,10 +192,8 @@ namespace EduPlus.api.Repository
                 return -1;
             }
 
-            // Choose a random wordId from the valid list
-            Random random = new Random();
-            int randomIndex = random.Next(validWordIds.Count);
-            return validWordIds[randomIndex];
+            // Get the first word in the list
+            return validWordIds[0];
         }
 
         public async Task<QuestionPhraseDto> GetSpecificWordAsync(string userId, int selectedLanguageId, int wordId)

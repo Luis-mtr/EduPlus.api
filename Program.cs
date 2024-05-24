@@ -87,6 +87,8 @@ builder.Services.AddScoped<IWordRepository, WordRepository>();
 builder.Services.AddScoped<IPhraseLanguageRepository, PhraseLanguageRepository>();
 builder.Services.AddScoped<IWordLanguageRepository, WordLanguageRepository>();
 builder.Services.AddScoped<IQuestionPhraseRepository, QuestionPhraseRepository>();
+builder.Services.AddScoped<IPhraseAnswerRepository, PhraseAnswerRepository>();
+builder.Services.AddScoped<IWordAnswerRepository, WordAnswerRepository>();
 
 var app = builder.Build();
 
