@@ -14,7 +14,7 @@ namespace api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Policy = "AdminOnly")]
+    
     public class LanguagesController : ControllerBase
     {
         private readonly ILanguageRepository _languageRepository;
@@ -26,6 +26,7 @@ namespace api.Controllers
 
         // GET: api/Languages
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<LanguageDto>>> GetLanguages()
         {
             var languages = await _languageRepository.GetAllAsync();
@@ -34,6 +35,7 @@ namespace api.Controllers
 
         // GET: api/Languages/5
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<LanguageDto>> GetLanguage(int id)
         {
             var language = await _languageRepository.GetByIdAsync(id);
@@ -48,6 +50,7 @@ namespace api.Controllers
 
         // PUT: api/Languages/5
         [HttpPut("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> PutLanguage(int id, Language language)
         {
             if (id != language.LanguageId)
@@ -66,6 +69,7 @@ namespace api.Controllers
 
         // POST: api/Languages
         [HttpPost]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult> PostLanguage(LanguageCreateDto language)
         {
             if (!ModelState.IsValid)
@@ -80,6 +84,7 @@ namespace api.Controllers
 
         // DELETE: api/Languages/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> DeleteLanguage(int id)
         {
             var deleteLanguage = await _languageRepository.DeleteAsync(id);

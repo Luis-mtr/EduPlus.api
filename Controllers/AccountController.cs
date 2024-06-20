@@ -11,6 +11,8 @@ using api.Data;
 using System.Runtime.CompilerServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using EduPlus.api.Dtos.Account;
+using Microsoft.AspNetCore.Authorization;
 
 namespace api.Controllers
 {
@@ -53,7 +55,8 @@ namespace api.Controllers
                 UserName = user.UserName,
                 Email = user.Email,
                 Token = token,
-                LanguageId = user.NativeLanguageId
+                LanguageId = user.NativeLanguageId,
+                Role = roles.FirstOrDefault() // Since each user has only one role
             });
         }
 
@@ -91,7 +94,8 @@ namespace api.Controllers
                             UserName = user.UserName,
                             Email = user.Email,
                             Token = token,
-                            LanguageId = user.NativeLanguageId
+                            LanguageId = user.NativeLanguageId,
+                            Role = roles.FirstOrDefault() // Since each user has only one role
                         });
                     }
                 }
@@ -102,6 +106,85 @@ namespace api.Controllers
             {
                 return StatusCode(500, e);
             }
+        }
+
+        // GET: api/account
+        [HttpGet]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<ActionResult<IEnumerable<NewUserDto>>> GetAccounts()
+        {
+            var users = await _userManager.Users.ToListAsync();
+            var userDtos = new List<GetUsersDto>();
+
+            foreach (var user in users)
+            {
+                var roles = await _userManager.GetRolesAsync(user);
+                userDtos.Add(new GetUsersDto
+                {   
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    Email = user.Email,
+                    LanguageId = user.NativeLanguageId,
+                    Role = roles.FirstOrDefault()
+                });
+            }
+
+            return Ok(userDtos);
+        }
+
+        // PUT: api/account/update/{id}
+        [HttpPut("update/{id}")]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> UpdateAccount(string id, [FromBody] UpdateAccountDto updateAccountDto)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+                return NotFound("User not found");
+
+            user.UserName = updateAccountDto.Username;
+            user.Email = updateAccountDto.Email;
+            user.NativeLanguageId = updateAccountDto.LanguageId;
+
+            var result = await _userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+                return StatusCode(500, result.Errors);
+
+            var currentRoles = await _userManager.GetRolesAsync(user);
+            var currentRole = currentRoles.FirstOrDefault();
+            if (currentRole != updateAccountDto.Role)
+            {
+                if (!string.IsNullOrEmpty(currentRole))
+                {
+                    var removeRoleResult = await _userManager.RemoveFromRoleAsync(user, currentRole);
+                    if (!removeRoleResult.Succeeded)
+                        return StatusCode(500, removeRoleResult.Errors);
+                }
+
+                var addRoleResult = await _userManager.AddToRoleAsync(user, updateAccountDto.Role);
+                if (!addRoleResult.Succeeded)
+                    return StatusCode(500, addRoleResult.Errors);
+            }
+
+            return NoContent();
+        }
+
+        // DELETE: api/account/delete/{id}
+        [HttpDelete("delete/{id}")]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> DeleteAccount(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+                return NotFound("User not found");
+
+            var result = await _userManager.DeleteAsync(user);
+            if (!result.Succeeded)
+                return StatusCode(500, result.Errors);
+
+            return NoContent();
         }
     }
 }
