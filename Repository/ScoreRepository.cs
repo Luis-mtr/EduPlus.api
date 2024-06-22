@@ -105,16 +105,16 @@ namespace EduPlus.api.Repository
             var end = Math.Min(users.Count - 1, currentUserIndex + 4);
 
             var leaderboardEntries = users.Skip(start).Take(end - start + 1)
-                .Select(u => new LeaderboardEntryDto
+                .Select((u, index) => new LeaderboardEntryDto
                 {
                     UserName = u.UserName,
-                    SessionPoints = u.SessionPoints
+                    SessionPoints = u.SessionPoints,
+                    CurrentUserPosition = start + index + 1 // 1-based index
                 }).ToList();
 
             return new LeaderboardDto 
             { 
-                Entries = leaderboardEntries, 
-                CurrentUserPosition = currentUserIndex + 1 // +1 to make it 1-based index
+                Entries = leaderboardEntries 
             };
         }
 
@@ -130,16 +130,16 @@ namespace EduPlus.api.Repository
             var end = Math.Min(users.Count - 1, currentUserIndex + 4);
 
             var leaderboardEntries = users.Skip(start).Take(end - start + 1)
-                .Select(u => new LeaderboardEntryDto
+                .Select((u, index) => new LeaderboardEntryDto
                 {
                     UserName = u.UserName,
-                    SessionPoints = u.TotalPoints
+                    SessionPoints = u.TotalPoints,
+                    CurrentUserPosition = start + index + 1 // 1-based index
                 }).ToList();
 
             return new LeaderboardDto 
             { 
-                Entries = leaderboardEntries, 
-                CurrentUserPosition = currentUserIndex + 1 // +1 to make it 1-based index
+                Entries = leaderboardEntries 
             };
         }
     }
