@@ -12,8 +12,8 @@ using api.Data;
 namespace api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240520195954_AddPhraseLanguageAndWordPhraseRelationships")]
-    partial class AddPhraseLanguageAndWordPhraseRelationships
+    [Migration("20240622135818_AddPointsToAppUser")]
+    partial class AddPointsToAppUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -54,13 +54,13 @@ namespace api.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "f1d32626-fe46-4568-9e9b-7f5b1b516ac5",
+                            Id = "34c57165-439d-4c6f-ab17-7edc1bc801ac",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "540b658c-d4ff-4f69-bfb0-492c396ec17a",
+                            Id = "d7cd983e-8fef-4a9d-86ea-bb8d73904bb4",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -197,6 +197,9 @@ namespace api.Migrations
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
 
+                    b.Property<int>("NativeLanguageId")
+                        .HasColumnType("int");
+
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -217,6 +220,12 @@ namespace api.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long>("SessionPoints")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("TotalPoints")
+                        .HasColumnType("bigint");
+
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
 
@@ -225,6 +234,8 @@ namespace api.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("NativeLanguageId");
 
                     b.HasIndex("NormalizedEmail")
                         .HasDatabaseName("EmailIndex");
@@ -287,7 +298,7 @@ namespace api.Migrations
 
                     b.HasIndex("PhraseId");
 
-                    b.ToTable("PhraseLanguage");
+                    b.ToTable("PhrasesLanguages", (string)null);
                 });
 
             modelBuilder.Entity("api.Models.PhraseLanguageUser", b =>
@@ -320,24 +331,6 @@ namespace api.Migrations
                     b.HasIndex("PhraseId");
 
                     b.ToTable("PhraseLanguageUser");
-                });
-
-            modelBuilder.Entity("api.Models.UserNativeLanguage", b =>
-                {
-                    b.Property<string>("AppUserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("LanguageId")
-                        .HasColumnType("int");
-
-                    b.HasKey("AppUserId", "LanguageId");
-
-                    b.HasIndex("AppUserId")
-                        .IsUnique();
-
-                    b.HasIndex("LanguageId");
-
-                    b.ToTable("UserNativeLanguages");
                 });
 
             modelBuilder.Entity("api.Models.Word", b =>
@@ -373,7 +366,7 @@ namespace api.Migrations
 
                     b.HasIndex("WordId");
 
-                    b.ToTable("WordLanguage");
+                    b.ToTable("WordsLanguages", (string)null);
                 });
 
             modelBuilder.Entity("api.Models.WordLanguageUser", b =>
@@ -474,9 +467,20 @@ namespace api.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("api.Models.AppUser", b =>
+                {
+                    b.HasOne("api.Models.Language", "NativeLanguage")
+                        .WithMany()
+                        .HasForeignKey("NativeLanguageId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("NativeLanguage");
+                });
+
             modelBuilder.Entity("api.Models.PhraseLanguage", b =>
                 {
-                    b.HasOne("api.Models.Language", "Langauge")
+                    b.HasOne("api.Models.Language", "Language")
                         .WithMany("PhraseLanguages")
                         .HasForeignKey("LanguageId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -488,7 +492,7 @@ namespace api.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Langauge");
+                    b.Navigation("Language");
 
                     b.Navigation("Phrase");
                 });
@@ -501,7 +505,7 @@ namespace api.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("api.Models.Language", "Langauge")
+                    b.HasOne("api.Models.Language", "Language")
                         .WithMany("PhraseLanguageUser")
                         .HasForeignKey("LanguageId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -515,33 +519,14 @@ namespace api.Migrations
 
                     b.Navigation("AppUser");
 
-                    b.Navigation("Langauge");
+                    b.Navigation("Language");
 
                     b.Navigation("Phrase");
                 });
 
-            modelBuilder.Entity("api.Models.UserNativeLanguage", b =>
-                {
-                    b.HasOne("api.Models.AppUser", "AppUser")
-                        .WithOne("UserNativeLanguage")
-                        .HasForeignKey("api.Models.UserNativeLanguage", "AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("api.Models.Language", "Language")
-                        .WithMany("UserNativeLanguages")
-                        .HasForeignKey("LanguageId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-
-                    b.Navigation("Language");
-                });
-
             modelBuilder.Entity("api.Models.WordLanguage", b =>
                 {
-                    b.HasOne("api.Models.Language", "Langauge")
+                    b.HasOne("api.Models.Language", "Language")
                         .WithMany("WordLanguages")
                         .HasForeignKey("LanguageId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -553,7 +538,7 @@ namespace api.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Langauge");
+                    b.Navigation("Language");
 
                     b.Navigation("Word");
                 });
@@ -566,7 +551,7 @@ namespace api.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("api.Models.Language", "Langauge")
+                    b.HasOne("api.Models.Language", "Language")
                         .WithMany("WordLanguageUser")
                         .HasForeignKey("LanguageId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -580,7 +565,7 @@ namespace api.Migrations
 
                     b.Navigation("AppUser");
 
-                    b.Navigation("Langauge");
+                    b.Navigation("Language");
 
                     b.Navigation("Word");
                 });
@@ -608,9 +593,6 @@ namespace api.Migrations
                 {
                     b.Navigation("PhraseLanguageUser");
 
-                    b.Navigation("UserNativeLanguage")
-                        .IsRequired();
-
                     b.Navigation("WordLanguageUser");
                 });
 
@@ -619,8 +601,6 @@ namespace api.Migrations
                     b.Navigation("PhraseLanguageUser");
 
                     b.Navigation("PhraseLanguages");
-
-                    b.Navigation("UserNativeLanguages");
 
                     b.Navigation("WordLanguageUser");
 

@@ -51,13 +51,13 @@ namespace api.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "da5c0e72-57c5-4848-b042-32fa88eb3475",
+                            Id = "34c57165-439d-4c6f-ab17-7edc1bc801ac",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "fd5f8c4a-4342-4c38-af79-cfde262ccaba",
+                            Id = "d7cd983e-8fef-4a9d-86ea-bb8d73904bb4",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -216,6 +216,12 @@ namespace api.Migrations
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("SessionPoints")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("TotalPoints")
+                        .HasColumnType("bigint");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");

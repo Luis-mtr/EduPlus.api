@@ -25,7 +25,8 @@ public class TokenService : ITokenService
         {
             new Claim(JwtRegisteredClaimNames.Email, user.Email),
             new Claim(JwtRegisteredClaimNames.GivenName, user.UserName),
-            new Claim(ClaimTypes.NameIdentifier, user.Id)
+            new Claim(ClaimTypes.NameIdentifier, user.Id),
+            new Claim("nativeLanguageId", user.NativeLanguageId.ToString()) // Add this line to include nativeLanguageId
         };
 
         foreach (var role in roles)
