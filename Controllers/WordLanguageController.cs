@@ -13,7 +13,7 @@ namespace api.Controllers
 {   
     [Route("api/wordlanguage")]
     [ApiController]
-    [Authorize(Policy = "AdminOnly")]
+
     public class WordLanguageController : ControllerBase
     {
         private readonly IWordLanguageRepository _wordLanguageRepository;
@@ -24,6 +24,7 @@ namespace api.Controllers
         }
 
         [HttpGet]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult<IEnumerable<WordLanguage>>> GetAll()
         {
             var wordLanguages = await _wordLanguageRepository.GetAllAsync();
@@ -31,14 +32,19 @@ namespace api.Controllers
         }
 
         [HttpGet("{wordId}/{languageId}")]
-        public async Task<ActionResult<IEnumerable<WordLanguage>>> GetById(int wordId, int languageId)
+        [AllowAnonymous]
+         public async Task<ActionResult<string>> GetById(int wordId, int languageId)
         {
-            var wordLanguage = await _wordLanguageRepository.GetByIdAsync(wordId,languageId);
-            if (wordLanguage == null) return NotFound();
-            return Ok(wordLanguage);
+            var wordInLanguage = await _wordLanguageRepository.GetWordInLanguageAsync(wordId, languageId);
+            if (wordInLanguage == null) 
+            {
+                return NotFound();
+            }
+            return Ok(wordInLanguage);
         }
 
         [HttpPost]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult> Create (WordLanguageCreateUpdateDto dto)
         {
             if (!ModelState.IsValid)
@@ -56,6 +62,7 @@ namespace api.Controllers
         }
 
         [HttpPut("{wordId}/{languaeId}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult> Update(int wordId, int languaeId, WordLanguageCreateUpdateDto dto)
         {
             if (!ModelState.IsValid)
@@ -73,6 +80,7 @@ namespace api.Controllers
         }
 
         [HttpDelete("{wordId}/{languaeId}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult> Delete(int wordId, int languaeId)
         {
             var success = await _wordLanguageRepository.DeleteAsync(wordId, languaeId);

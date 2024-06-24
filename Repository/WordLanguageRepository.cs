@@ -58,5 +58,12 @@ namespace api.Repository
             await _context.SaveChangesAsync();
             return wordLanguage;
         }
+
+        public async Task<string> GetWordInLanguageAsync(int wordId, int languageId)
+        {
+            var wordLanguage = await _context.WordLanguages
+                .FirstOrDefaultAsync(wl => wl.WordId == wordId && wl.LanguageId == languageId);
+            return wordLanguage?.WordInLanguage;
+        }
     }
 }

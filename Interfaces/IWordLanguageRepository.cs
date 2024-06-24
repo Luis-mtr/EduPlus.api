@@ -9,6 +9,7 @@ namespace api.Interfaces
     public interface IWordLanguageRepository
     {
         Task<IEnumerable<WordLanguage>> GetAllAsync();
+        Task<string> GetWordInLanguageAsync(int wordId, int languageId);
         Task<WordLanguage> GetByIdAsync(int wordId, int languageId);
         Task<WordLanguage> CreateAsync(WordLanguage wordLanguage);
         Task<WordLanguage> UpdateAsync(WordLanguage wordLanguage);

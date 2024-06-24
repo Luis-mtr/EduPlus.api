@@ -221,7 +221,7 @@ namespace EduPlus.api.Repository
             var otherWords = await _context.Words
                 .Include(w => w.WordLanguages)
                 .ThenInclude(wl => wl.Language)
-                .Where(w => w.WordLanguages.Any(wl => wl.LanguageId == selectedLanguageId) && w.WordId != wordId)
+                .Where(w => w.WordLanguages.Any(wl => wl.LanguageId == selectedLanguageId) && w.WordId != wordId && (w.WordId < 22 || w.WordId > 42))
                 .OrderBy(r => Guid.NewGuid())
                 .Take(4)
                 .ToListAsync();
